@@ -7,6 +7,31 @@ Kanal: https://www.youtube.com/@PofitoStudio
 
 Kanal telefonla doğrulanınca: açıklamadaki linkler tıklanabilir olur, iki videoya da özel kapak yüklenmeli.
 
+## Kanal
+
+- Afiş: `art-src/youtube-afis.jpg` (ChatGPT ile üretildi) (2560×1440; masaüstünde görünen orta bant 2560×423, her cihazda görünen güvenli alan 1546×423)
+
+**Kanal açıklaması**
+
+```
+Pofito Studio küçük bir stüdyo: az ama özenli uygulamalar ve oyunlar yapıyoruz. Maskotumuz Pofito her işin başında el sallıyor. 👋
+
+🪳 Böcük Roll: bütün mahalle terlikle peşinde! Fizikle çalışan, bol kahkahalı kovalamaca oyunu. Tarayıcıda hemen oyna: https://pofitostudio.com/bocukroll/
+📚 YKS Konu Takip Çizelgesi: TYT ve AYT konularını ders ders takip et, çözdüğün soruları kaydet.
+
+Bu kanalda oyunlarımızın fragmanlarını, uygulamalarımızın tanıtımlarını ve yeni işlerden ilk kareleri bulacaksın. Yeni bir şey çıktığında haberin olsun diye abone ol. 🌙
+
+🌐 https://pofitostudio.com/
+```
+
+**Bağlantılar**
+
+| Başlık | URL |
+|---|---|
+| Pofito Studio sitesi | https://pofitostudio.com/ |
+| Google Play | https://play.google.com/store/apps/developer?id=Pofito+Studio |
+| Böcük Roll'u tarayıcıda oyna | https://pofitostudio.com/bocukroll/ |
+
 ## 1. Böcük Roll oynanış fragmanı
 
 - Dosya: `../bocuk/docs/magaza/video/bocuk_tanitim_1080p.mp4` (22,5 sn, 1920×1080)
