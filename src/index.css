@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+/* Lenis' own stylesheet (its package exports don't expose the .css path). */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis:not(.lenis-autoToggle).lenis-stopped {
+  overflow: clip;
+}
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* ------------------------------------------------------------------
+   Yazı sistemi
+   Başlık:    Unbounded — geniş ve yuvarlak; az kullanılır.
+   Metin:     Manrope.
+   Gösterge:  IBM Plex Mono — etiketler, saat, sayaçlar.
+   Renk: mürekkep moru zemin, tek vurgu ay sarısı.
+   ------------------------------------------------------------------ */
+@theme {
+  --font-display: "Unbounded", "Arial Black", sans-serif;
+  --font-sans: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+
+  --color-void: #0c0a17;
+  --color-void-2: #151226;
+  --color-mist: #d8d2e6;
+  --color-dust: #8f88a6;
+  --color-moon: #ffc46b;
+  --color-cream: #f7ead0;
+
+  --text-hero: clamp(2.75rem, 8.6vw, 8.5rem);
+  --text-hero--line-height: 1;
+  --text-hero--letter-spacing: 0.24em;
+
+  --text-display: clamp(1.75rem, 4vw, 3.5rem);
+  --text-display--line-height: 1.1;
+  --text-display--letter-spacing: -0.02em;
+
+  --text-lead: clamp(1.125rem, 1.6vw, 1.5rem);
+  --text-lead--line-height: 1.45;
+  --text-lead--letter-spacing: -0.01em;
+
+  --text-body: clamp(0.9375rem, 1.05vw, 1.0625rem);
+  --text-body--line-height: 1.65;
+  --text-body--letter-spacing: -0.005em;
+
+  --text-label: 0.6875rem;
+  --text-label--line-height: 1.3;
+  --text-label--letter-spacing: 0.16em;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    background: var(--color-void);
+  }
+  body {
+    margin: 0;
+    background: var(--color-void);
+    color: var(--color-mist);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: clip;
+  }
+  ::selection {
+    background: var(--color-moon);
+    color: var(--color-void);
+  }
+  :focus-visible {
+    outline: 1.5px solid var(--color-moon);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+@layer utilities {
+  .h-screen-s {
+    height: 100svh;
+  }
+
+  /* HUD corner brackets. */
+  .brackets {
+    background:
+      linear-gradient(currentColor, currentColor) top left / 14px 1px,
+      linear-gradient(currentColor, currentColor) top left / 1px 14px,
+      linear-gradient(currentColor, currentColor) top right / 14px 1px,
+      linear-gradient(currentColor, currentColor) top right / 1px 14px,
+      linear-gradient(currentColor, currentColor) bottom left / 14px 1px,
+      linear-gradient(currentColor, currentColor) bottom left / 1px 14px,
+      linear-gradient(currentColor, currentColor) bottom right / 14px 1px,
+      linear-gradient(currentColor, currentColor) bottom right / 1px 14px;
+    background-repeat: no-repeat;
+  }
+
+  /* Yalnız JS varken gizle: betik çalışmazsa içerik görünür kalır. */
+  .js [data-reveal] {
+    opacity: 0;
+    transform: translate3d(0, 24px, 0);
+    transition:
+      opacity 1s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .js [data-reveal].is-in {
+    opacity: 1;
+    transform: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .js [data-reveal] {
+      transform: none;
+    }
+  }
+}

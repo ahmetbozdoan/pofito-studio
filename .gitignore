@@ -1,0 +1,24 @@
+# bağımlılıklar ve derleme çıktısı
+node_modules
+dist
+
+# yerel ekran görüntüleri
+shots
+shots-canli
+
+# FTP yükleme kaydı
+.yuklenen
+
+# ortam / gizli dosyalar
+.env
+.env.*
+*.netrc
+
+# araç ve sistem dosyaları
+.claude/
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/

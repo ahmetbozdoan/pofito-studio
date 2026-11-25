@@ -1,0 +1,17 @@
+# pofitostudio.com kök ayarları. /bocukroll/ kendi .htaccess dosyasını kullanır.
+Options -Indexes
+DirectoryIndex index.html
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+<IfModule mod_headers.c>
+  # Derleme çıktısının adlarında özet var: uzun süre saklanabilir.
+  <FilesMatch "^index-[A-Za-z0-9_-]+\.(js|css)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
