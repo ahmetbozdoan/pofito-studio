@@ -19,7 +19,7 @@ export const brand = {
 
 export const links = {
   play: 'https://play.google.com/store/apps/developer?id=Pofito+Studio',
-  youtube: 'https://www.youtube.com/@ahmetbozdoan',
+  youtube: 'https://www.youtube.com/@PofitoStudio',
 };
 
 export const nav = [
@@ -70,11 +70,11 @@ export const apps: App[] = [
     facts: ['İki taraf: böcük ol ya da terlikle kovala', '3 yokuş: mahalle, karlı yayla, sahil', '6 haneli oda koduyla arkadaşlarınla aynı yarış', 'Dolapta 20 aksesuar, 4 dil'],
     icon: '/media/bocuk/icon.webp',
     poster: '/media/bocuk/poster.jpg',
-    video: 'yMvlsoI2jVA',
+    video: 'C4r57BJzDXc',
     videoTitle: 'Böcük Roll oynanış fragmanı',
     actions: [
       {label: 'Tarayıcıda oyna', href: '/bocukroll/'},
-      {label: 'Fragmanı YouTube’da aç', href: 'https://www.youtube.com/watch?v=yMvlsoI2jVA', external: true},
+      {label: 'Fragmanı YouTube’da aç', href: 'https://www.youtube.com/watch?v=C4r57BJzDXc', external: true},
     ],
     note: 'Google Play sürümü kapalı testte',
     join: {
@@ -100,11 +100,11 @@ export const apps: App[] = [
     facts: ['TYT ve AYT dersleri, konu konu ilerleme', 'Çözdüğün soruları ve tekrarları kaydet', 'Haftalık, aylık ve yıllık istatistik'],
     icon: '/media/yks/icon.webp',
     poster: '/media/yks/poster.jpg',
-    video: '0iaLVvMrca4',
+    video: 'uwNremHrxBc',
     videoTitle: 'YKS Konu Takip Çizelgesi tanıtım videosu',
     actions: [
       {label: 'Google Play’den indir', href: 'https://play.google.com/store/apps/details?id=com.ykstakip', external: true},
-      {label: 'Tanıtımı YouTube’da aç', href: 'https://www.youtube.com/watch?v=0iaLVvMrca4', external: true},
+      {label: 'Tanıtımı YouTube’da aç', href: 'https://www.youtube.com/watch?v=uwNremHrxBc', external: true},
     ],
     stills: [
       {image: '/media/yks/kare-1.webp', title: 'Dersler', body: 'Her dersin yüzde kaçı bitti, hemen görünür.'},

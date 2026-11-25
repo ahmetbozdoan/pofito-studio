@@ -8,7 +8,7 @@
   <b>Uygulamalar ve oyunlar</b> · küçük bir stüdyo, az ama özenli işler<br>
   <a href="https://pofitostudio.com/">pofitostudio.com</a> ·
   <a href="https://play.google.com/store/apps/developer?id=Pofito+Studio">Google Play</a> ·
-  <a href="https://www.youtube.com/@ahmetbozdoan">YouTube</a>
+  <a href="https://www.youtube.com/@PofitoStudio">YouTube</a>
 </p>
 
 <p align="center">
@@ -32,9 +32,9 @@ Sen bir hamam böceğisin ve tek çıkış yolun yokuşun dibindeki rögar. Fizi
 - 6 haneli oda koduyla arkadaşlarınla aynı yarış
 - Dolapta 20 aksesuar, 4 dil
 
-<a href="https://www.youtube.com/watch?v=yMvlsoI2jVA"><img src="public/media/bocuk/poster.jpg" width="640" alt="Böcük Roll oynanış fragmanı (YouTube)"></a>
+<a href="https://www.youtube.com/watch?v=C4r57BJzDXc"><img src="public/media/bocuk/poster.jpg" width="640" alt="Böcük Roll oynanış fragmanı (YouTube)"></a>
 
-▶ [Oynanış fragmanını YouTube'da izle](https://www.youtube.com/watch?v=yMvlsoI2jVA) · 🎮 [Tarayıcıda oyna](https://pofitostudio.com/bocukroll/)
+▶ [Oynanış fragmanını YouTube'da izle](https://www.youtube.com/watch?v=C4r57BJzDXc) · 🎮 [Tarayıcıda oyna](https://pofitostudio.com/bocukroll/)
 
 | Mahalle peşinde | Tam isabet | Rögara kaç |
 |---|---|---|
@@ -58,9 +58,9 @@ TYT ve AYT konularını ders ders takip et, çözdüğün soruları kaydet, nere
 - Çözdüğün soruları ve tekrarları kaydet
 - Haftalık, aylık ve yıllık istatistik
 
-<a href="https://www.youtube.com/watch?v=0iaLVvMrca4"><img src="public/media/yks/poster.jpg" width="640" alt="YKS Konu Takip Çizelgesi tanıtım videosu (YouTube)"></a>
+<a href="https://www.youtube.com/watch?v=uwNremHrxBc"><img src="public/media/yks/poster.jpg" width="640" alt="YKS Konu Takip Çizelgesi tanıtım videosu (YouTube)"></a>
 
-▶ [Tanıtım videosunu YouTube'da izle](https://www.youtube.com/watch?v=0iaLVvMrca4) · 📲 [Google Play'den indir](https://play.google.com/store/apps/details?id=com.ykstakip)
+▶ [Tanıtım videosunu YouTube'da izle](https://www.youtube.com/watch?v=uwNremHrxBc) · 📲 [Google Play'den indir](https://play.google.com/store/apps/details?id=com.ykstakip)
 
 | Dersler | Soru kaydı | İstatistik |
 |---|---|---|
